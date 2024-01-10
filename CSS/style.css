@@ -1,0 +1,57 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.row{
+    display: flex;
+    gap: 20px;    
+    justify-content: center;    
+}
+
+#page-title{
+    text-align: center;
+}
+
+#clear-btn{
+    background-color: red;
+}
+
+#delete-btn{
+    background-color: red;
+}
+
+.btn{
+    background-color: black;
+    color: white;    
+    font-size: 20px;
+    border-radius: 2px;        
+    text-align: center;
+}
+
+#calculator{
+    background-color: orange;
+    width: 400px;
+    height: 500px;
+    margin: 0 auto;
+    padding-top: 25px;        
+}
+
+#screen{
+    height: 200px;
+    width: 350px;    
+    margin-left: auto;
+    margin-right: auto;
+    background: black;    
+}
+
+#calculator-btns-area{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    height: 250px;
+    background-color: lightsteelblue;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+}
