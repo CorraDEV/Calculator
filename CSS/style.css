@@ -70,16 +70,18 @@ body{
     border-radius: 20px;
 }
 
-#calculation{    
-    margin: 20px;
-    padding-top: 20px;    
+#calculation{        
+    width: fit-content;
+    padding-top: 20px;
+    padding-bottom: 20px;    
+    margin-left: 20px;
     font-size: 25px;
     color: rgb(0, 219, 0);
     word-wrap: break-word;
 }
 
 #result{
-    width: 50px;        
+    width: fit-content;        
     color: rgb(0, 219, 0);
     margin-left: 20px;
     font-size: 25px;

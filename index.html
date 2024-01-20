@@ -4,13 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CSS/style.css">
-    <script src="js/script.js"></script>
+    <script src="js/script.js" defer></script>
     <title>Calculator</title>
 </head>
 <body>    
     <h1 id="page-title">Calculator</h1>
     <div id="calculator">
         <div id="screen">            
+            <div id="calculation"></div>
             <div id="result"></div>
         </div>
         <div id="calculator-btns-area">
@@ -20,28 +21,28 @@
                     <button id="delete-btn" class="btn">delete</button>  
                 </div>
                 <div class="row">
-                    <button class="btn" value="7">7</button>  
-                    <button class="btn" value="8">8</button>  
-                    <button class="btn" value="9">9</button>  
-                    <button class="btn" value="/">/</button>  
+                    <button id="n-7" class="btn" value="7">7</button>  
+                    <button id="n-8" class="btn" value="8">8</button>  
+                    <button id="n-9" class="btn" value="9">9</button>  
+                    <button id="divide" class="btn" value="/">/</button>  
                 </div>
                 <div class="row">
-                    <button class="btn" value="4">4</button>  
-                    <button class="btn" value="5">5</button>  
-                    <button class="btn" value="6">6</button>  
-                    <button class="btn" value="x">x</button>  
+                    <button id="n-4" class="btn" value="4">4</button>  
+                    <button id="n-5" class="btn" value="5">5</button>  
+                    <button id="n-6" class="btn" value="6">6</button>  
+                    <button id="multi" class="btn" value="x">x</button>  
                 </div>
                 <div class="row">
-                    <button class="btn" value="1">1</button>  
-                    <button class="btn" value="2">2</button>  
-                    <button class="btn" value="3">3</button>  
-                    <button class="btn" value="-">-</button>  
+                    <button id="n-1" class="btn" value="1">1</button>  
+                    <button id="n-2" class="btn" value="2">2</button>  
+                    <button id="n-3" class="btn" value="3">3</button>  
+                    <button id="sub" class="btn" value="-">-</button>  
                 </div>
                 <div class="row">
-                    <button class="btn" value=".">.</button>  
-                    <button class="btn" value="0">0</button>  
-                    <button class="btn" value="=">=</button>  
-                    <button class="btn" value="+">+</button>  
+                    <button id="dot" class="btn" value=".">.</button>  
+                    <button id="n-0" class="btn" value="0">0</button>  
+                    <button id="equal" class="btn" value="=">=</button>  
+                    <button id="plus" class="btn" value="+">+</button>  
                 </div>
             </div>
         </div>
